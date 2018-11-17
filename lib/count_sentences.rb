@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    if self.scan(/$./)
+    if self.scan(/[.]$/)
       return true
     else
       return false
