@@ -27,6 +27,10 @@ class String
   end
 
   def count_sentences
-    self.split(/\.|\?|\!/).size
+    self.split(/\.|\?|\!/).each do |segment|
+      if segment.isempty?
+      else
+      end
+    end
   end
 end
