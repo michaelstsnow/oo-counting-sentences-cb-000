@@ -31,9 +31,9 @@ class String
     self.split(/\.|\?|\!/).each do |segment|
       if segment.isempty?
       else
-        final_segments << saegment
+        final_segments << segment
       end #end of If statement
     end # end of do
-    final_segments
+    final_segments.size
   end # end of def
 end
