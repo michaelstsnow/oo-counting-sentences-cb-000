@@ -11,11 +11,19 @@ class String
   end
 
   def question?
-
+    if self.match(/[?]$/)
+      return true
+    else
+      return false
+    end
   end
 
   def exclamation?
-
+    if self.match(/[!]$/)
+      return true
+    else
+      return false
+    end
   end
 
   def count_sentences
