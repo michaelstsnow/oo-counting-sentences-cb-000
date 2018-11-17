@@ -32,7 +32,8 @@ class String
       if segment.isempty?
       else
         final_segments << saegment
-      end
-    end
-  end
+      end #end of If statement
+    end # end of do
+    final_segments
+  end # end of def
 end
