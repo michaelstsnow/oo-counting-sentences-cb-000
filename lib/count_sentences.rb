@@ -27,6 +27,6 @@ class String
   end
 
   def count_sentences
-    sentences=self.scan(/(...)\b[.|!|?]+/)
+    sentences=self.scan(/^\b[.|!|?]+/)
   end
 end
