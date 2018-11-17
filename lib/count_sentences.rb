@@ -30,6 +30,7 @@ class String
     self.split(/\.|\?|\!/).each do |segment|
       if segment.isempty?
       else
+        final_segments << saegment
       end
     end
   end
